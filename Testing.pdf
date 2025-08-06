@@ -1,0 +1,48 @@
+Test Programming
+Buat project dengan menggunakan Laravel dengan ketentuan dan data berikut.
+Ketentuan :
+• Membuat Migrasi dari table dibawah
+• membuat CRUD dari Kategori, COA dan Transaksi
+• Membuat Laporan Profit/loss
+• Membuat Export Excel Laporan Profit/Loss
+• Ada Kombinasi Jquery
+Master Kategori COA :
+nama
+Salary
+Other Income
+Family Expense
+Transport Expense
+Meal Expense
+Master Chart of Account :
+kode nama kategori
+401 Gaji Karyawan Salary
+402 Gaji Ketua MPR Salary
+403 Profit Trading Other Income
+601 Biaya Sekolah Family Expense
+602 Bensin Transport Expense
+603 Parkir Transport Expense
+604 Makan Siang Meal Expense
+605 Makana Pokok Bulanan Meal Expense
+Transaksi :
+Tanggal COA Kode COA Nama Desc Debit Credit
+1/1/2022 401 Gaji Karyawan Gaji Di Persuhaan A 0 5000000
+1/2/2022 402 Gaji Ketua MPR Gaji Ketum 0 7000000
+1/10/2022 602 Bensin Bensin Anak 25000
+Contoh Laporan Profit/Loss :
+2022-01 2022-02 2022-03
+Category Amount Amount Amount
+
+
+--- PAGE 1 ---
+
+Salary 12000000 12000000 12000000
+Other Income 5500000 6000000 3500000
+Total Income 17500000 18000000 15500000
+Family Expense 500000 3500000 4500000
+Transport Expense 200000 250000 225000
+Meal Expense 150000 300000 175000
+Total Expense 850000 4050000 4900000
+
+
+--- PAGE 2 ---
+

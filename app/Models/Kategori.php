@@ -1,0 +1,21 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\HasMany;
+
+class Kategori extends Model
+{
+    protected $fillable = [
+        'nama',
+    ];
+
+    /**
+     * Get the coas for the kategori.
+     */
+    public function coas(): HasMany
+    {
+        return $this->hasMany(Coa::class);
+    }
+}
