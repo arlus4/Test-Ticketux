@@ -6,10 +6,6 @@
     <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License">
 </p>
 
-## About Test Ticketux
-
-Test Ticketux is a comprehensive accounting system built with Laravel framework. This application provides a complete solution for managing financial transactions, chart of accounts, categories, and generating financial reports.
-
 ### Features
 
 -   **Dashboard**: Overview of financial statistics and quick actions
